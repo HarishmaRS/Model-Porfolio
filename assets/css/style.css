@@ -30,12 +30,16 @@
       align-items: center;
   }
 
-  header .Name {
+  header .name > a {
       font-size: 25px;
       font-weight: 600;
       letter-spacing: 2px;
+      text-decoration: none;
+      color: #fff;
   }
-
+  header .name > a:hover{
+    color: var(--primary);
+  }
   .menu_ul {
       display: flex;
       list-style: none;
