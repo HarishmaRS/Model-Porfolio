@@ -340,6 +340,9 @@
       .btn {
           margin: 5px 0 20px 0;
       }
+      .work_section_box {
+        min-width: 30%; 
+      }
   }
 
   @media only screen and (max-width: 600px) {
@@ -350,22 +353,6 @@
       header * {
           margin-bottom: 10px;
       }
-
-      .menu_list {
-          margin: 10px 5px;
-      }
-
-      .menu_link {
-          border: 1px solid var(--primary);
-          padding: 3px 10px;
-          border-radius: 5px;
-      }
-
-      .menu_link:hover {
-          background-color: var(--primary);
-          color: black;
-      }
-
       /* home section  */
       .home_section {
           flex-direction: column;
@@ -409,7 +396,7 @@
 
       .work_section_box {
           margin-bottom: 0;
-          max-width: 100%;
+          min-width: 80%;
       }
 
       .contact_section_form input,
